@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+    margin: 40px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.navbar-brand h2 {
+    font-weight: bold;
+    color: #5865f2;
+}
+
+.btn-outline-primary {
+    border-color: #5865f2;
+    color: #5865f2;
+    border-radius: 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5865f2;
+    color: #fff;
+}
+
+.btn {
+  display: flex;
+  justify-content: center; /* Horizontally center the text */
+  align-items: center;     /* Vertically center the text */
+  height: 40px; 
+  border-radius: 20px;           /* Ensure the height matches the input */
+}
+
+.form-control {
+  width: 70%;
+  height: 40px; 
+  border-radius: 20px;/* Set a specific height for both the input and button */
+}
+
+.form-control-small {
+  width: 250px;
+  height: 40px; 
+  border-radius: 20px;
+  border:2px solid #eee;/* Set a specific height for both the input and button */
+}
+
+.main-section {
+    padding: 50px 0;
+}
+
+
+.text-section {
+    max-width: 600px;
+  }
+  
+  /* Input Group Styling */
+  .input-group .form-control {
+    border-radius: 30px 0 0 30px;
+    box-shadow: none;
+  }
+  
+  .input-group .btn-primary {
+    border-radius: 0 30px 30px 0;
+    background-color: #4a4aef;
+    border-color: #4a4aef;
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+  
+  .input-group .btn-primary:hover {
+    background-color: #3838d1;
+    border-color: #3838d1;
+  }
+  
+
+  .service-card {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .service-card p {
+    color: #000;
+    font-size: 0.9rem;
+  }
+
+  .card-blue { background-color: #4A6CF7; }
+  .card-lightblue { background-color: #DDE7FF; color: #000; }
+  .card-yellow { background-color: #FFD966; color: #000; }
+
+  .circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .center-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3f51b5; /* Blue color */
+  }
+
+  .cta-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .cta-section input {
+    border-radius: 25px;
+    padding: 10px 20px;
+  }
+
+  .cta-section button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+  }
+  @media (max-width: 768px) {
+    /* For mobile view, make it more column-based */
+    .main-section {
+      text-align: center;
+    }
+    .text-section h1 {
+      font-size: 32px;
+    }
+    .text-section p {
+      font-size: 16px;
+    }
+    .input-group {
+      justify-content: center;
+    }
+  }
